@@ -1,4 +1,4 @@
 configs
 =======
 
-Misc configs and such
+Misc configs and such (UNIX based)
