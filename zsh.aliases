@@ -1,0 +1,7 @@
+alias bwtest='wget cachefly.cachefly.net/100mb.test -O /dev/null'
+alias ecrypt="gpg --symmetric -a"
+alias dcrypt="gpg -d"
+alias top="top -ocpu"
+alias texupdate='sudo tlmgr update --self --all'
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+alias scp='scp -c blowfish'
