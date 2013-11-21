@@ -1,8 +1,11 @@
 Host *
     KeepAlive yes
     Compression yes
-    ControlPath ~/.ssh/control/%r.%h.%p
+    CompressionLevel 1
+    ControlPath ~/.ssh/socket/%r.%h.%p
     ControlMaster auto
+    ControlPersist 4h
     ServerAliveInterval 30
+    TCPKeepAlive yes
     Ciphers blowfish-cbc,arcfour256,aes256-cbc,aes256-ctr
     MACs hmac-sha2-512,hmac-sha2-256,hmac-ripemd160
